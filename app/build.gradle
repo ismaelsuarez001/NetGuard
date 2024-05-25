@@ -18,7 +18,7 @@ android {
         externalNativeBuild {
             cmake {
                 cppFlags ""
-                arguments "-DANDROID_PLATFORM=android-22"
+                arguments "-DANDROID_PLATFORM=android-13"
                 // https://developer.android.com/ndk/guides/cmake.html
             }
         }
@@ -72,8 +72,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_12
+        targetCompatibility JavaVersion.VERSION_12
     }
 
     lint {
